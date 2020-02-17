@@ -1,0 +1,14 @@
+{
+    "name": "Eitri Environment",
+    "dockerFile": "Dockerfile",
+    "extensions": [
+        "eamodio.gitlens",
+        "yzhang.markdown-all-in-one",
+        "streetsidesoftware.code-spell-checker",
+        "redhat.vscode-yaml"
+    ],
+    "settings": {
+    },
+    "forwardPorts": [80]
+    //"postCreateCommand": "/bin/bash ./.devcontainer/post-create.sh > ~/post-create.log"
+}
